@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="canvas" width="900" height="700"></canvas>
+
+    <!-- Adicione a paleta de cores -->
+    <div id="color-palette">
+        <div class="botao-cor" style="background-color: pink;" onclick="definirCorLinha('pink')"></div>
+        <div class="botao-cor" style="background-color: white;" onclick="definirCorLinha('white')"></div>
+        <div class="botao-cor" style="background-color: black;" onclick="definirCorLinha('black')"></div>
+        <div class="botao-cor" style="background-color: yellow;" onclick="definirCorLinha('yellow')"></div>
+        <div class="botao-cor" style="background-color: #e8ae3b;" onclick="definirCorLinha('darkyellow')"></div>
+        <div class="botao-cor" style="background-color: #e9e974;" onclick="definirCorLinha('lightyellow')"></div>
+        <div class="botao-cor" style="background-color: red;" onclick="definirCorLinha('red')"></div>
+        <!-- Adicione mais cores aqui -->
+    </div>
+
+    <button onclick="ativarModoPreenchimento()">Ativar Preenchimento</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
